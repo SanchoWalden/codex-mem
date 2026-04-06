@@ -46,6 +46,12 @@ This is optional. The command below installs the skill workflow only; it is not 
 If you also want the optional skill from this repo:
 
 ```bash
+npx skills add SanchoWalden/codex-mem
+```
+
+Fallback:
+
+```bash
 npx skills add https://github.com/SanchoWalden/codex-mem --skill codex-mem
 ```
 
@@ -115,6 +121,12 @@ codex mcp get codexMem
 这是可选步骤。下面的命令只安装 skill 工作流，不是 MCP Server 的必需安装步骤。
 
 如果你也想安装这个仓库里的可选 skill：
+
+```bash
+npx skills add SanchoWalden/codex-mem
+```
+
+备用写法：
 
 ```bash
 npx skills add https://github.com/SanchoWalden/codex-mem --skill codex-mem
