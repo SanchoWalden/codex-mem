@@ -1,0 +1,9 @@
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.db
+node_modules/
+task_plan.md
+findings.md
+progress.md

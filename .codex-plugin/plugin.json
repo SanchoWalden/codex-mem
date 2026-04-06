@@ -1,0 +1,41 @@
+{
+  "name": "codex-mem",
+  "version": "0.1.0",
+  "description": "Persistent memory for Codex across sessions with recall and session compaction.",
+  "author": {
+    "name": "SanchoWalden",
+    "email": "310571960@qq.com",
+    "url": "https://github.com/SanchoWalden/codex-mem"
+  },
+  "homepage": "https://github.com/SanchoWalden/codex-mem",
+  "repository": "https://github.com/SanchoWalden/codex-mem",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "memory",
+    "sqlite",
+    "search",
+    "session",
+    "recall"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Codex Memory",
+    "shortDescription": "Recall project decisions and user preferences across sessions.",
+    "longDescription": "Stores project-scoped memories, compacts session history, and retrieves relevant context for future Codex work.",
+    "developerName": "SanchoWalden",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write",
+      "Search"
+    ],
+    "websiteURL": "https://github.com/SanchoWalden/codex-mem",
+    "privacyPolicyURL": "https://github.com/SanchoWalden/codex-mem",
+    "termsOfServiceURL": "https://github.com/SanchoWalden/codex-mem",
+    "defaultPrompt": "Recall past project decisions, remember durable facts, or compact the current session into memory.",
+    "brandColor": "#2563EB"
+  }
+}

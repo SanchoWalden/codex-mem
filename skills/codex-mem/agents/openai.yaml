@@ -1,0 +1,4 @@
+interface:
+  display_name: Codex Memory
+  short_description: Recall project decisions and user preferences across sessions.
+  default_prompt: Recall past decisions for this project

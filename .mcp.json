@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "codex-mem": {
+      "command": "node",
+      "args": [
+        "./scripts/worker.js"
+      ],
+      "cwd": "."
+    }
+  }
+}

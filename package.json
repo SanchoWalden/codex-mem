@@ -1,0 +1,36 @@
+{
+  "name": "@sanchowalden/codex-mem",
+  "version": "0.1.0",
+  "description": "Standalone MCP memory server for Codex sessions.",
+  "private": false,
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/SanchoWalden/codex-mem",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SanchoWalden/codex-mem.git"
+  },
+  "type": "commonjs",
+  "bin": {
+    "codex-mem": "./bin/codex-mem.js"
+  },
+  "scripts": {
+    "start": "node scripts/worker.js",
+    "install:mcp": "node ./bin/codex-mem.js install"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "skills/",
+    ".codex-plugin/",
+    ".mcp.json",
+    "schema.sql",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
